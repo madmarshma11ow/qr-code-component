@@ -1,0 +1,66 @@
+:root {
+  font-family: "Outfit", "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --white: #ffffff;
+  --text-shadow: #9d9d9d;
+}
+
+.body {
+  background-color: var(--slate-300);
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 98vh;
+}
+
+.card-container {
+  width: 20rem;
+  height: 29.6875rem;
+  border-radius: 1.25rem;
+  background-color: var(--white);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 18rem;
+}
+
+.qr-image {
+  height: 18rem;
+}
+
+.qr__title {
+  font-size: 1.375rem;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--slate-900);
+  text-shadow: 0 0.2rem 0.2rem var(--text-shadow);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.qr__desc {
+  font-size: 0.9375rem;
+  line-height: 140%;
+  letter-spacing: 0.0125rem;
+  text-align: center;
+  color: var(--slate-500);
+  margin: 0;
+  padding: 1rem 1rem 0 1rem;
+}
